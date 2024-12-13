@@ -1,0 +1,228 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+.container{
+    max-width: 1000px;
+    padding: 15px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    height: 1000px;
+    background-image: url(./images/75ae05112787439\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        .top2 li{
+            display: inline-block;
+        }
+        .top2 ul{
+            display: flex;
+            max-width: 660px;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-between;
+            li{
+                margin: 23px;
+                font-size: 20px;
+                flex-wrap: wrap;
+                font-weight: normal;
+                select{
+                    background-color: rgb(126, 85, 55);
+                    opacity: 50%;
+                }
+            }
+        }
+    }
+}
+.menu{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 300px;
+    justify-content: space-between;
+    h2{
+        font-size: 36px;
+    }
+    button{
+        width: 248px;
+        height: 62px;
+        background-color: #114E86;
+        border-radius: 8px;
+    }
+}
+.main1{
+    h2{
+        margin-top: 150px;
+        font-size: 30px;
+        color: #000000;
+        text-align: center;
+    }
+    p{
+        margin-top: 35px;
+        color: #000000;
+        font-size: 20px;
+    }
+    .button{
+        text-align: end;
+        margin-right: -10px;
+    }
+}
+.main2{
+    display: flex;
+        justify-content: center;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .img1{
+        width: 40px;
+        height: 40px;
+        margin-left: -15px;
+        margin-top: 175px;
+    }
+    .img2{
+        width: 40px;
+        height: 40px;
+        margin-top: 175px;
+        margin-right: -15px;
+    }
+}
+.center{
+    display: block;
+    color: #000;
+    text-align: center;
+}
+.box{
+    max-width: 370px;
+    max-height: 455px;
+    margin: auto;
+    text-align: center;
+    padding: 50px 35px 35px 50px;
+    div p{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        color: #114E86;
+    }
+    p{
+        text-align: left;
+        color: #000;
+    }
+    b{
+        color: #000;
+    }
+    border-radius: 8px;
+    img{
+        max-width: 160px;
+        max-height: 148px;
+        border-radius: 100%;
+    }
+}
+.in{
+    max-width: 370px;
+    background-color: #114E86;
+    div p{
+        color: #FFFFFF;
+    }
+}
+footer{
+    background-color: #000;
+    margin: auto;
+    max-width: 100%;
+    margin-top: 150px;
+    padding: 42px 0px;
+    
+}
+.foot1{
+    max-width: 1170px;
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    p{
+        font-size: 20px;
+    }
+    .inbox1{
+        max-width: 300px;
+        font-size: 24px;
+        margin: 25px;
+    }
+    .inbox2{
+        font-size: 24px;
+        p{
+            margin: 15px;
+        }
+    }
+    .inbox3{
+        font-size: 24px;
+        input{
+            width: 370px;
+            height: 50px;
+            display: block;
+            margin: 17px 0px;
+            background-color: #C4C4C440 ;
+            opacity: 75%;
+            border-radius: 8px;
+            padding: 20px 16px;
+            
+        }
+        button{
+            width: 370px;
+            height: 60px;
+            background-color: #000;
+            border: 1px solid white;
+        }
+    }
+}
+.foot2{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 82px;
+    flex-wrap: wrap;
+    img{
+        margin: 17px;
+    }
+}
+@media screen and (max-width: 475px){
+    nav{
+        display: none;
+        .top2{
+            clear: both;
+            
+        }
+    }
+    header{
+        background-image: url(./images/background.png);
+    }
+    .menu{
+        text-align: center;
+        h2{
+            height: 108px;
+        }
+        button{
+            margin: auto;
+        }
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
